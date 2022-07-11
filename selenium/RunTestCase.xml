@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tiki" parallel="tests" thread-count="2">
+
+	<!-- <parameter name = "url" value = "https://demo.nopcommerce.com/" /> -->
+
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<packages> <package name="testng" /> </packages> 
+		<classes>
+			<class name="testng.Topic_05_Parameter" />
+		</classes>
+	</test>
+
+<!-- 	<test name="Run on CHROME"> -->
+<!-- 		<parameter name="browser" value="chrome" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testng.Topic_05_Parameter" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="Run on EDGE"> -->
+<!-- 		<parameter name="browser" value="edge" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testng.Topic_05_Parameter" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+
+</suite> 
