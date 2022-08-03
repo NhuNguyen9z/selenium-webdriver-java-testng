@@ -50,7 +50,7 @@ public void beforeClass() {
  * - Tìm thấy element thì ko cần chờ hết timeout
  * - Ko tìm thấy thì có cơ chế tìm lại -> Tìm lại ko thấy luôn -> Output (findElement/ findElements)
  * - Nếu như ko set thì mặc định = 0
- * - Nếu như set rồi mà sau đó ở 1 step sau dc set lại thì sẽ bị overide lại
+ * - Nếu như set rồi mà sau đó ở 1 step sau dc set lại thì sẽ bị overide lại (là tính ở step sau cùng)
  * 
  * */
 	
