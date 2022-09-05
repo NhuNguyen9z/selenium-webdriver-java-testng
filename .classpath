@@ -4,6 +4,5 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar" sourcepath="libraries/client-combined-3.141.59-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="libraries/testng-6.14.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="browserDrivers/chromedriver.exe"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
